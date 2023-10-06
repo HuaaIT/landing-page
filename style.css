@@ -1,6 +1,9 @@
 p{
     margin:0;
 }
+body{
+    margin: 0;
+}
 .header{
     display: flex;
     color: white;
@@ -59,8 +62,10 @@ p{
 .middle1{
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 350px;
     align-items: center;
+    gap: 30px;
+    margin-top: 30px;
 }
 .middle-title{
     font-size: 36px;
@@ -70,5 +75,38 @@ p{
 .frame-container{
     display: flex;
     flex: 1;
-    
+    gap: 50px;
+}
+.frame{
+    width: 150px;
+    gap: 10px;
+}
+.frame-item{
+    margin-bottom: 8px;
+    height: 140px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 6px;
+}
+.middle2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 450px;
+}
+.text-box{
+    width: 600px;
+}
+.text-container{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.author{
+    font-weight: bold   ;
+    font-size: 17px;
+    width: 200px;
+    padding-left: 410px;
 }
